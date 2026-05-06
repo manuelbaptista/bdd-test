@@ -1,4 +1,4 @@
-Feature: Change User Password
+Feature: Change user password
 
 Scenario: Show Change Password Popup
 Given I click the Username button on the Title Bar
