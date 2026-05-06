@@ -33,7 +33,7 @@ Then an error message appears stating that the new password does not meet the re
 
 Examples:
 
-| Dataset name | password | "missing criteria" |
+| Dataset name | password | criteria |
 | Password missing uppercase character | p@ssword2025 | Password missing uppercase character |
 | Password missing lowercase character | P@SSWORD2025 | Password missing lowercase character |
 | Password missing numberical character | P@ssword | Password missing numberical character |
