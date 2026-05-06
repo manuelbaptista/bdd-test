@@ -33,11 +33,11 @@ Then an error message appears stating that the new password does not meet the re
 
 Examples:
 
-  | password     | criteria violation                                     |
-  | p@ssword2025 | Password does not contain an uppercase character       |
-  | P@SSWORD2025 | Password does not contain a lowercase character        |
-  | P@ssword     | Password does not contain a number                     |
-  | Password2025 | Password does not contain a non-alphanumeric character |
+| Dataset name | password |
+| Password missing uppercase character | p@ssword2025 |
+| Password missing lowercase character | P@SSWORD2025 |
+| Password missing numberical character | P@ssword |
+| Password missing non-alphanumeric character | Password2025 |
 
 Scenario: New Password Must Be 8 Characters Or More
 Given the Change Password window is displayed
