@@ -29,3 +29,4 @@ Feature: Toggle controls panel visibility
     And the controls panel is collapsed
     When I press the right bracket on my keyboard
     Then the controls panel expands
+
